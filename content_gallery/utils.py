@@ -5,7 +5,8 @@ import io
 from PIL import Image
 import magic
 
-from django.core import urlresolvers
+# from django.core import urlresolvers
+from django import urls as urlresolvers
 from django.core.files import uploadedfile
 from django.conf import settings as django_settings
 
