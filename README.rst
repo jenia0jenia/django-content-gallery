@@ -28,7 +28,6 @@ Requirements
 * **Pillow** 3.0.0+
 * **python-magic** 0.4.2+
 * **awesome-slugify** 1.6+
-* **django-admin-jqueryui112** 1.12.1+
 
 .. NOTE::
 	Windows users should also copy ``magic1.dll``, ``regex2.dll`` and ``zlib1.dll`` onto
@@ -48,8 +47,7 @@ To install the **django-content-gallery** type following command:
 
 Then in ``settings.py``:
 
-* Add the ``content_gallery`` to INSTALLED_APPS in the settings of your project
-  and the ``admin_jqueryui`` to enable sorting images in the admin panel.
+* Add the ``content_gallery`` to INSTALLED_APPS in the settings of your project.
 
 * Add the ``django.template.context_processors.media`` context processor to the
   the ``context_processor`` list under the ``OPTIONS`` dict in ``TEMPLATES``
@@ -61,7 +59,6 @@ Then in ``settings.py``:
     INSTALLED_APPS = [
         ...
         'content_gallery',
-        'admin_jqueryui',
     ]
 
     TEMPLATES = [
