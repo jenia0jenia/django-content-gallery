@@ -29,4 +29,4 @@
 
     ContentGallery.animateSync = animateSync;
 
-})(jQuery);
+})(django.jQuery);

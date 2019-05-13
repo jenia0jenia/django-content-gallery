@@ -24,6 +24,9 @@ class ImageAdminInline(GenericInlineModelAdmin):
     class Media:
         js = (
             utils.create_static_url(
+                "content_gallery/js/jquery-ui.min.js"
+            ),
+            utils.create_static_url(
                 "content_gallery/js/content-gallery-view.js"
             ),
             utils.create_static_url(

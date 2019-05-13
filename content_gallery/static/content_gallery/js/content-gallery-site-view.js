@@ -267,4 +267,4 @@
         gallerySiteView.init();
         ContentGallery.galleryView.init(gallerySiteView);
     });
-})(jQuery);
+})(django.jQuery);
