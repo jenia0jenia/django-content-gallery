@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'testapp',
     'content_gallery',  # add the Content Gallery app
-    'admin_jqueryui',  # for sorting images in admin
 ]
 
 MIDDLEWARE = [
